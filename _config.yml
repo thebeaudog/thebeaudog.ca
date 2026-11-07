@@ -1,6 +1,10 @@
 title: The Beau Dog Grooming Salon
 description: One on one dog grooming in a peaceful home salon in Fireside, Cochrane, AB.
-url: "https://thebeaudog.ca"
+# Temporary settings for previewing at https://thebeaudog.github.io/thebeaudog.ca/
+# When the real domain goes live: restore the CNAME file, set url to
+# "https://thebeaudog.ca" and remove baseurl.
+url: "https://thebeaudog.github.io"
+baseurl: "/thebeaudog.ca"
 lang: en-CA
 
 markdown: kramdown
