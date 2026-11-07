@@ -1,0 +1,20 @@
+title: The Beau Dog Grooming Salon
+description: One on one dog grooming in a peaceful home salon in Fireside, Cochrane, AB.
+url: "https://thebeaudog.ca"
+lang: en-CA
+
+markdown: kramdown
+
+# Contact details (used in the layout and on the Contact page)
+email: info@thebeaudog.ca
+phone_display: "647-390-5421"
+phone_digits: "6473905421"
+facebook: "https://www.facebook.com/thebeaudoggroomingsalon"
+instagram: "https://www.instagram.com/TheBeauDogGrooming"
+
+exclude:
+  - supporting-docs
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .kiro

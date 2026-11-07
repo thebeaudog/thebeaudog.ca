@@ -1,0 +1,78 @@
+# All prices in CAD, before applicable taxes.
+# Price lists run in size order: Small, Medium, Large, X Large, Giant.
+
+sizes:
+  - { name: Small,   guide: "Under 20 lbs" }
+  - { name: Medium,  guide: "21 - 50 lbs" }
+  - { name: Large,   guide: "51 - 75 lbs" }
+  - { name: X Large, guide: "76 - 100 lbs" }
+  - { name: Giant,   guide: "101 lbs +" }
+
+full_groom:
+  - name: Short Haircut
+    length: "3/8\" and under"
+    blurb: A lower maintenance haircut which allows more time between grooms and less brushing at home.
+    prices: [85, 100, 125, 140, 160]
+  - name: Long Haircut
+    length: "1/2\" - 1\""
+    blurb: A high maintenance style which requires more frequent grooming and regular brushing at home.
+    prices: [100, 125, 150, 175, 190]
+
+deshed:
+  coats:
+    - name: Smooth Coats
+      examples: Greyhound, Boston Terrier, Boxer
+      prices: [60, 70, 85, 95, 105]
+    - name: Short Coats
+      examples: Labrador, German Shepherd
+      prices: [70, 90, 100, 120, 140]
+    - name: Moderate Coats
+      examples: Golden Retriever, Australian Shepherd
+      prices: [90, 100, 120, 140, 160]
+    - name: Heavy Coats
+      examples: Samoyed, Malamute, Pomeranian
+      prices: [100, 120, 140, 160, 180]
+  feather_trim: [10, 15, 20, 25, 30]
+
+express:
+  note: A quicker service for when all your pup needs is a good scrub in the bath and a blow dry. Not suitable for heavy or long coated dogs.
+  prices:
+    - "$40 - $60"
+    - "$50 - $70"
+    - "$60 - $80"
+    - "$75 - $95"
+    - "$85 - $105"
+
+addons:
+  - { name: Nail trim (clipped and dremelled), price: "$20" }
+  - { name: 30 minute brush out, price: "$25" }
+  - { name: Paw & pad tidy, price: "$20" }
+  - { name: Clean feet, price: "$20" }
+  - { name: Teeth brushing, price: "$10", note: "Includes a toothbrush to take home. Bring it back for your next appointment and pay just $5 for cleaning." }
+
+includes:
+  full_groom:
+    - Bath with appropriate shampoo and conditioner for each dog's hair type and condition
+    - Blow dry
+    - Full-body brush out
+    - Sanitary trim
+    - Paw pad trim
+    - Nails cut and dremelled
+    - Ears cleaned (also plucked if requested and if tolerated by the dog)
+    - Paw and nose balm
+    - Full body haircut
+    - Hand scissored finishing
+    - Cologne
+    - Bandana or bow
+  deshed:
+    - Bath with appropriate shampoo and conditioner for each dog's hair type and condition
+    - Blow dry
+    - Full body brush out
+    - Sanitary trim only on request
+    - Paw pad trim
+    - Paw tidy
+    - Nails cut and dremelled
+    - Ears cleaned
+    - Paw and nose balm
+    - Cologne
+    - Bandana or bow
