@@ -1,8 +1,12 @@
 title: The Beau Dog Grooming Salon
 description: One on one dog grooming in a peaceful home salon in Fireside, Cochrane, AB.
-# Temporary settings for previewing at https://thebeaudog.github.io/thebeaudog.ca/
-# When the real domain goes live: restore the CNAME file, set url to
-# "https://thebeaudog.ca" and remove baseurl.
+# PREVIEW MODE: site is served at https://thebeaudog.github.io/thebeaudog.ca/
+#
+# To go live on the custom domain:
+#   1. Create a file named CNAME in the repo root containing: www.thebeaudog.ca
+#   2. Change url below to "https://www.thebeaudog.ca"
+#   3. Delete the baseurl line below
+#   4. Settings > Pages > Custom domain: www.thebeaudog.ca
 url: "https://thebeaudog.github.io"
 baseurl: "/thebeaudog.ca"
 lang: en-CA
