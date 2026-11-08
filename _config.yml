@@ -7,8 +7,7 @@ description: One on one dog grooming in a peaceful home salon in Fireside, Cochr
 #   2. Change url below to "https://www.thebeaudog.ca"
 #   3. Delete the baseurl line below
 #   4. Settings > Pages > Custom domain: www.thebeaudog.ca
-url: "https://thebeaudog.github.io"
-baseurl: "/thebeaudog.ca"
+url: "https://www.thebeaudog.ca"
 lang: en-CA
 
 markdown: kramdown
