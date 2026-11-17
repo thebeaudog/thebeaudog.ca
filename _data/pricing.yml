@@ -35,7 +35,7 @@ deshed:
   feather_trim: [10, 15, 20, 25, 30]
 
 express:
-  note: A quicker service for when all your pup needs is a good scrub in the bath and a blow dry. Not suitable for heavy or long coated dogs.
+  note: A quicker service for when all your pup needs is a good scrub in the bath and a blow dry. Not suitable for heavy or long coated dogs. The express service cannot be booked in conjunction with other services.
   prices:
     - "$40 - $60"
     - "$50 - $70"
